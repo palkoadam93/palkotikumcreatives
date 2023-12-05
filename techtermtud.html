@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/Palkotikumicon.png">
+
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/maintechtermtud.css">
+    <link rel="stylesheet" href="../static/oldalak.css">
+
+    <title>Technika és természettudomány</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--INTER FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;900&display=swap" rel="stylesheet">
+    <!--PHILOSOPHER FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <!--JULIUS SANS ONE FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="header">
+      <header>
+        <h1><a href="/" title="Kezdőlap">Palkotikum</a></h1>
+        <h2><a href="/techtermtud" title="Nyitóoldal">Technika és természettudomány</a></h2>
+      </header>
+      <nav>
+        <a href="#">Rólunk</a>
+        <a href="#">Blog</a>
+        <!--<a href="#" id="podcastbutton">
+          <img src="../static/podcast-2665179_640.png" id="podcasticon" /></i>
+          <p>Podcast</p>
+        </a>-->
+        <a href="#">Regisztráció</a>
+        <a href="#">Bejelentkezés</a>
+        <a href="#">Pályázatok</a>
+      </nav>
+    </div>
+    
+    <aside>
+      <h2>Csillagászat és űrkutatás</h2>
+      <section>
+        <a href="{{url_for('csillag')}}">Csillagászat</a>
+      </section>
+      
+      <h2>Természetföldrajz</h2>
+      <section>
+        <a href="{{url_for('termfoldr')}}">Természetföldrajz</a>
+      </section>
+      
+      <h2>Biológia</h2>
+      <section>
+        <a href="{{url_for('bio')}}">Biológia</a>
+      </section>
+      
+      <h2>Kérdések a kezdethez</h2>
+      <section>
+        <a href="{{url_for('kezdet')}}">Kérdések a kezdethez</a>
+      </section>
+      
+      <h2>Fizika és technika</h2>
+      <section>
+        <a href="{{url_for('fizikatech')}}">Fizika és technika</a>
+
+        <h3>Fizika 9.</h3>
+        <a href="https://www.nkp.hu/tankonyv/fizika_9_nat2020/fejezet_01_fejezetnyito" target="_blank">9.1. Egyszerű mozgások</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_9_nat2020/fejezet_02_fejezetnyito" target="_blank">9.2. A közlekedés és a sportolás fizikája</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_9_nat2020/fejezet_03_fejezetnyito" target="_blank">9.3. Energia</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_9_nat2020/fejezet_04_fejezetnyito" target="_blank">9.4. Ismétlődő mozgások</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_9_nat2020/fejezet_05_fejezetnyito" target="_blank">9.5. A melegítés és a hűtés következményei</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_9_nat2020/fejezet_06_fejezetnyito" target="_blank">9.6. Víz és levegő a környezetünkben</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_9_nat2020/projektfeladatok" target="_blank">9. Projektfeladatok</a>
+
+        <h3>Fizika 10.</h3>
+        <a href="https://www.nkp.hu/tankonyv/fizika_10_nat2020/fejezet_01_fejezetnyito" target="_blank">10.1. Gépek</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_10_nat2020/fejezet_02_fejezetnyito" target="_blank">10.2. Szikrák és villámok</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_10_nat2020/fejezet_03_fejezetnyito" target="_blank">10.3. Elektromosság a környezetünkben</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_10_nat2020/fejezet_04_fejezetnyito" target="_blank">10.4. Generátorok és motorok</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_10_nat2020/fejezet_05_fejezetnyito" target="_blank">10.5. A hullámok szerepe a kommunikációban</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_10_nat2020/fejezet_06_fejezetnyito" target="_blank">10.6. Képek és látás</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_10_nat2020/fejezet_07_fejezetnyito" target="_blank">10.7. Az atomok és a fény</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_10_nat2020/fejezet_08_fejezetnyito" target="_blank">10.8. Környezetünk épségének megőrzése</a>
+        <a href="https://www.nkp.hu/tankonyv/fizika_10_nat2020/fejezet_09_fejezetnyito" target="_blank">10.9. A Világegyetem megismerése</a>
+      </section>
+      
+      <h2>Kémia</h2>
+      <section>
+        <a href="{{url_for('kemia')}}">Kémia</a>
+
+        <h3>Kémia 9.</h3>
+        <a href="https://www.nkp.hu/tankonyv/kemia_9_nat2020/fejezet_01_fejezetnyito" target="_blank">1. Milyen részecskékből állnak az anyagok?</a>
+        <a href="https://www.nkp.hu/tankonyv/kemia_9_nat2020/fejezet_02_fejezetnyito" target="_blank">2. Mi okozza a fizikai tulajdonságokat?</a>
+        <a href="https://www.nkp.hu/tankonyv/kemia_9_nat2020/fejezet_03_fejezetnyito" target="_blank">3. Az elektron egy másik atommag vonzásába kerül</a>
+        <a href="https://www.nkp.hu/tankonyv/kemia_9_nat2020/fejezet_04_fejezetnyito" target="_blank">4. Csoportosítsuk a kémiai reakciókat!</a>
+
+        <h3>Kémia 10.</h3>
+        <a href="https://www.nkp.hu/tankonyv/kemia_10_nat2020/lecke_05_fejezetnyito" target="_blank">5. Miért más egy kicsit a szerves kémia?</a>
+        <a href="https://www.nkp.hu/tankonyv/kemia_10_nat2020/lecke_06_fejezetnyito" target="_blank">6. Szénhidrogének és halogéntartalmú szerves vegyületek</a>
+        <a href="https://www.nkp.hu/tankonyv/kemia_10_nat2020/lecke_07_fejezetnyito" target="_blank">7. Oxigén- és nitrogéntartalmú szerves vegyületek</a>
+        <a href="https://www.nkp.hu/tankonyv/kemia_10_nat2020/lecke_08_fejezetnyito" target="_blank">8. Biológiai jelentőségű anyagok</a>
+        <a href="https://www.nkp.hu/tankonyv/kemia_10_nat2020/lecke_09_fejezetnyito" target="_blank">9. Az elemek és szervetlen vegyületeik</a>
+        <a href="https://www.nkp.hu/tankonyv/kemia_10_nat2020/lecke_10_fejezetnyito" target="_blank">10. Kémia az ipari termelésben és a mindennapokban</a>
+      </section>
+    </aside>
+
+    <main>
+      <h1>Üdvözöllek a Technika és természettudomány nyitóoldalán!</h1>
+      <article><a href="techtermtudpodcast"><i class="fa fa-podcast"></i> Természettudomány Podcast <i class="fa fa-podcast"></i></a></article>
+    </main>
+
+    <div style="clear:both;"></div>
+
+    <script src="../static/accordion.js"></script>
+  </body>
+</html>

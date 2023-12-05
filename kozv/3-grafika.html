@@ -1,0 +1,20 @@
+{% extends 'film.html' %}
+{% block content %}
+<h1>Művészeti stúdió</h1>
+
+<h3>Grafika</h3>
+<h4><a href="{{url_for('inkscape')}}">Vektorgrafika & Inkscape</a></h4>
+<h4><a href="{{url_for('krita')}}">Rasztergrafika & Krita</a></h4>
+<h4><a href="{{url_for('canva')}}">Canva</a></h4>
+<h4><a href="{{url_for('muvszakkor')}}">Művészeti Szakkör</a></h4>
+<h4><a href="{{url_for('vizsgraf')}}">Grafika vizsgák</a></h4>
+<h4><a href="https://palkoadam93.github.io/magaskulturak/" target="_blank">Magaskultúrák illusztrációk</a></h4>
+<h4><a href="#">Magaskultúrák infografikák (nem létezik)</a></h4>
+
+<h3>Képszerkesztés</h3>
+<h4><a href="{{url_for('foto')}}">Fotózás</a></h4>
+<h4><a href="{{url_for('kep')}}">Képfeldolgozás</a></h4>
+<h4><a href="{{url_for('gimp')}}">GIMP</a></h4>
+<h4><a href="{{url_for('terkep')}}">Térinformatika</a></h4>
+
+{% endblock content %}

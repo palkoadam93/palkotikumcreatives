@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/Palkotikumicon.png">
+
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/mainhalo.css">
+    <link rel="stylesheet" href="../static/oldalak.css">
+
+    <title>Hálózatok</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--INTER FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;900&display=swap" rel="stylesheet">
+    <!--PHILOSOPHER FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <!--JULIUS SANS ONE FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="header">
+      <header>
+        <h1><a href="/" title="Kezdőlap">Palkotikum</a></h1>
+        <h2><a href="/filmstudio" title="Nyitóoldal">Hálózatok</a></h2>
+      </header>
+      <nav>
+        <a href="#">Rólunk</a>
+        <a href="#">Blog</a>
+        <!--<a href="#" id="podcastbutton">
+          <img src="../static/podcast-2665179_640.png" id="podcasticon" /></i>
+          <p>Podcast</p>
+        </a>-->
+        <a href="#">Regisztráció</a>
+        <a href="#">Bejelentkezés</a>
+        <a href="#">Pályázatok</a>
+      </nav>
+    </div>
+
+    <aside>
+      <h2>OSI 1-2 - Fizikai és adatkapcsolati réteg</h2>
+      <section>
+        <a href="{{url_for('fizikai')}}">Fizikai réteg</a>
+        <a href="{{url_for('adatkapcs')}}">Adatkapcsolati réteg</a>
+        <a href="{{url_for('kabelek')}}">Kábelek</a>
+        <a href="{{url_for('switch')}}">Switch (kapcsoló)</a>
+        <a href="{{url_for('wireless')}}">Vezeték nélküli</a>
+      </section>
+
+      <h2>OSI 3 - Hálózati réteg - IP</h2>
+      <section>
+        <a href="{{url_for('IPv4')}}">IPv4</a>
+        <a href="{{url_for('IPv6')}}">IPv6</a>
+        <a href="{{url_for('tartcimt')}}">Tartomány, címtár</a>
+        <a href="{{url_for('halozatok')}}">Hálózatok kategóriái</a>
+        <a href="{{url_for('komm')}}">Kommunikáció 1</a>
+        <a href="{{url_for('iot')}}">Internet of Things</a>
+      </section>
+
+      <h2>OSI 3 - Hálózati réteg - Routerek</h2>
+      <section>
+        <a href="{{url_for('router')}}">Routerek</a>
+        <a href="{{url_for('vlan')}}">VLAN</a>
+        <a href="{{url_for('routerutv')}}">Router-útvonalak</a>
+      </section>
+
+      <h2>OSI 4 - Szállítási réteg</h2>
+      <section>
+        <a href="{{url_for('szall')}}">Szállítási réteg</a>
+      </section>
+
+      <h2>OSI 5-6-7 - Viszony, megjelítési, alkalmazási réteg</h2>
+      <section>
+        <a href="{{url_for('web')}}">A világháló</a>
+        <a href="{{url_for('haloalk')}}">Hálózati alkalmazások</a>
+      </section>
+
+      <h2>Egyéb</h2>
+      <section>
+        <a href="{{url_for('PT')}}">Packet Tracer</a>
+        <a href="{{url_for('konyvek')}}">Hálózatokról könyvek</a>
+      </section>
+
+      <h2>Informatikai biztonság</h2>
+      <section>
+        <a href="{{url_for('bizt')}}">Hálózati biztonság</a>
+        <a href="{{url_for('alkbizt')}}">Alkalmazások biztonsága</a>
+        <a href="{{url_for('kript')}}">Kriptográfia</a>
+      </section>
+
+      <h2>Szerverek és felhőszolgáltatások</h2>
+      <section>
+        <a href="{{url_for('hor')}}">Hálózati operációs rendszerek</a>
+        <a href="{{url_for('windowsserver2008')}}">Windows Server 2008</a>
+        <a href="{{url_for('windowsserver2012')}}">Windows Server 2012</a>
+        <a href="{{url_for('windowsserver2016')}}">Windows Server 2016</a>
+        <a href="{{url_for('ubuntuserver')}}">Linux szerver</a>
+        <a href="{{url_for('integr')}}">Windows és Linux integrációja</a>
+        <a href="{{url_for('felho')}}">Felhőszolgáltatások</a>
+      </section>
+    </aside>
+
+    <main>
+      <h1>Hálózatok</h1>
+
+      <h3>Hálózatok I.</h3>
+      <ol>
+        <li>Hálózati eszközök alapszintű konfigurációja (x óra)</li>
+        <li>Kapcsolási alapok (x óra)</li>
+        <li>VLAN-ok használata, VLAN-ok közti forgalomirányítás (x óra)</li>
+        <li>Második rétegbeli redundancia (x óra)</li>
+        <li>Dinamikus címkiosztás IPv4-környezetben (x óra)</li>
+        <li>IPv6-os címzés és dinamikus címkiosztás IPv6-környezetben (x óra)</li>
+        <li>Harmadik rétegbeli redundancia (x óra)</li>
+        <li>Hálózatbiztonsság, a kapcsoló biztonságossá tétele (x óra)</li>
+        <li>Vezeték nélküli technológiák (x óra)</li>
+        <li>Forgalomirányítási alapok, statikus forgalomirányítás (x óra)</li>
+      </ol>
+
+      <h3>Hálózatok II.</h3>
+      <ol>
+        <li>Dinamikus forgalomirányítási ismeretek (x óra)</li>
+        <li>Hálózatbiztonság (x óra)</li>
+        <li>Hozzáférési listák használata (x óra)</li>
+        <li>Statikus és dinamikus címfordítás lehetőségei (x óra)</li>
+        <li>WAN-technológiák (x óra)</li>
+        <li>Virtuális magánhálózat (VPN) kialakítása</li>
+        <li>Minőségbiztosítási alapok, hálózatfelügyelet megvalósítása (x óra)</li>
+        <li>Hálózattervezés, hibaelhárítás (x óra)</li>
+        <li>Hálózatvirtualizáció, hálózatautomatizáció (x óra)</li>
+        <li>Komplex hálózat tervezése, kialakítása (x óra)</li>
+      </ol>
+
+      <h3>Szerverek és felhőszolgáltatások</h3>
+      <ol>
+        <li>Virtualizáció és konténerek (x óra)</li>
+        <li>Windows szerver telepítése és üzemeltetése (x óra)</li>
+        <li>Linux szerver telepítése és üzemeltetése (x óra)</li>
+        <li>Linux és Windows rendszerek integrációja (x óra)</li>
+        <li>Felhőszolgáltatások (x óra)</li>
+        <li>Alkalmazások üzemeltetése (x óra)</li>
+      </ol>
+    </main>
+
+    <div style="clear:both;"></div>
+
+    <script src="../static/accordion.js"></script>
+  </body>
+</html>

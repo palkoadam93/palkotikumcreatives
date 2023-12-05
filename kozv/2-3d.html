@@ -1,0 +1,21 @@
+{% extends 'film.html' %}
+{% block content %}
+<h1>Számítógépes grafika és 3D modellezés</h1>
+
+<h3>Matematikai alapok</h3>
+<h4><a href="{{url_for('eukl')}}">Euklideszi geometria</a></h4>
+<h4><a href="{{url_for('proj')}}">Projektív geometria</a></h4>
+<h4><a href="{{url_for('analizis')}}">Analízis</a></h4>
+<h4><a href="{{url_for('geom')}}">Analitikus geometria</a></h4>
+<h4><a href="{{url_for('diffgeom')}}">Differenciálgeometria</a></h4>
+<h4><a href="nummat2">Numerikus matematika 2.</a></h4>
+<h4><a href="r">Numerikus programozás</a></h4>
+<h4><a href="graf">Gráfelmélet</a></h4>
+
+<h3>Számítógépes grafika és 3D modellezés</h3>
+<h4><a href="{{url_for('compgraph')}}">Számítógépes grafika</a></h4>
+<h4><a href="rajzprogpy">Rajzprogram Python nyelven</a></h4>
+<h4><a href="http://www.github.com/palkoadam93/JScanvas" target="_blank">JavaScript canvas</a></h4>
+<h4><a href="{{url_for('blender')}}">3D modellezés</a></h4>
+
+{% endblock content %}

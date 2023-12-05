@@ -1,0 +1,21 @@
+{% extends 'film.html' %}
+{% block content %}
+<h1>Kreatív írás</h1>
+
+<h3>Magyar nyelv</h3>
+<h4><a href="{{url_for('magyar')}}">Magyar nyelv</a></h4>
+
+<h3>Kreatív írás</h3>
+<h4><a href="#">Vers</a></h4>
+<h4><a href="#">Dal</a></h4>
+<h4><a href="#">Slam</a></h4>
+<h4><a href="#">Novella</a></h4>
+<h4><a href="#">Újságcikk</a></h4>
+<h4><a href="#">Riport</a></h4>
+<h4><a href="#">Tanulmány</a></h4>
+<h4><a href="#">Tudományos értekezés</a></h4>
+
+<h3>Idegen nyelv</h3>
+<h4><a href="{{url_for('angol')}}">Angol nyelv</a></h4>
+
+{% endblock content %}

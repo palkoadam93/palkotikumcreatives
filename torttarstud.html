@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/Palkotikumicon.png">
+
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/maintorttarstud.css">
+    <link rel="stylesheet" href="../static/oldalak.css">
+
+    <title>Történelem és társadalomtudomány</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--INTER FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;900&display=swap" rel="stylesheet">
+    <!--PHILOSOPHER FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <!--JULIUS SANS ONE FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="header">
+      <header>
+        <h1><a href="/" title="Kezdőlap">Palkotikum</a></h1>
+        <h2><a href="/torttarstud" title="Nyitóoldal">Történelem és társadalomtudomány</a></h2>
+      </header>
+      <nav>
+        <a href="#">Rólunk</a>
+        <a href="#">Blog</a>
+        <!--<a href="#" id="podcastbutton">
+          <img src="../static/podcast-2665179_640.png" id="podcasticon" /></i>
+          <p>Podcast</p>
+        </a>-->
+        <a href="#">Regisztráció</a>
+        <a href="#">Bejelentkezés</a>
+        <a href="#">Pályázatok</a>
+      </nav>
+    </div>
+
+    <aside>
+      <h2>Őskor</h2>
+      <section>
+        <a href="{{url_for('oskor')}}">Őskor</a>
+        <a href="{{url_for('azelsonepek')}}">Az első népek videósorozat</a>
+      </section>
+      
+      <h2>Kezdetek</h2>
+      <section>
+        <a href="{{url_for('eden')}}">Az Édenkert</a>
+        <a href="{{url_for('sumer')}}">Sumer</a>
+        <a href="{{url_for('akkad')}}">Akkád</a>
+        <a href="{{url_for('assziria')}}">Asszíria</a>
+      </section>
+
+      <h2>A magasabb rendű ember és a magaskultúra</h2>
+      <section>
+        <a href="{{url_for('ember')}}">A magasabb rendű ember</a>
+        <a href="{{url_for('magaskult')}}">A magaskultúra</a>
+      </section>
+      
+      <h2>Babilónia</h2>
+      <section>
+        <a href="{{url_for('babiloneloidok')}}">Előidők</a>
+        <a href="{{url_for('babilonkoraido')}}">Óbirodalom</a>
+        <a href="{{url_for('babilonkeseikor')}}">Középbirodalom</a>
+        <a href="{{url_for('babiloncivil')}}">Civilizáció</a>
+        <a href="{{url_for('babiloncsaszar')}}">Újbirodalom</a>
+      </section>
+      
+      <h2>Egyiptom</h2>
+      <section>
+          <a href="{{url_for('egyiptomeloidok')}}">Thiniszi kor</a>
+          <a href="{{url_for('egyiptomkoraido')}}">Óbirodalom</a>
+          <a href="{{url_for('egyiptomkeseikor')}}">Középbirodalom</a>
+          <a href="{{url_for('egyiptomcivil')}}">Hükszosz kor</a>
+          <a href="{{url_for('egyiptomcsaszar')}}">Újbirodalom</a>
+
+          <a href="#">Építészet</a>
+          <a href="{{url_for('egyiptomvallas')}}">Vallás</a>
+          <a href="{{url_for('egyiptomir')}}">Irodalom</a>
+      </section>
+      
+      <h2>India</h2>
+      <section>
+          <a href="{{url_for('indiaeloidok')}}">Előidők</a>
+          <a href="{{url_for('indiakoraido')}}">Koraidő</a>
+          <a href="{{url_for('indiakeseikor')}}">Kései kor</a>
+          <a href="{{url_for('indiacivil')}}">Mahadzsanapada</a>
+          <a href="{{url_for('indiacsaszar')}}">Maurja Birodalom</a>
+
+          <a href="#">Építészet</a>
+          <a href="#">Hinduizmus</a>
+          <a href="{{url_for('buddh')}}">Buddhizmus</a>
+      </section>
+      
+      <h2>Kína</h2>
+      <section>
+          <a href="{{url_for('kinaeloidok')}}">Előidők</a>
+          <a href="{{url_for('kinakoraido')}}">Korai Csou kor</a>
+          <a href="kinakeseikor">Késő Csou kor</a>
+          <a href="{{url_for('kinacivil')}}">Hadakozó Fejedelemségek kora</a>
+          <a href="{{url_for('kinacsaszar')}}">Csin Birodalom</a>
+
+          <a href="#">Építészet</a>
+          <a href="{{url_for('kinavallas')}}">Vallás</a>
+          <a href="{{url_for('kinair')}}">Irodalom</a>
+      </section>
+      
+      <h2>Antikvitás</h2>
+      <section>
+          <a href="{{url_for('antikeloidok')}}">Előidők</a>
+          <a href="{{url_for('antikkoraido')}}">Görög koraidő</a>
+          <a href="{{url_for('antikkeseikor')}}">Görög kései kor</a>
+          <a href="{{url_for('antikcivil')}}">Római civilizáció</a>
+          <a href="{{url_for('antikcsaszar')}}">Római Birodalom</a>
+
+          <a href="#">Építészet</a>
+          <a href="#">Szobrászat</a>
+          <a href="#">Antik vallás</a>
+          <a href="#">Filozófia</a>
+      </section>
+      
+      <h2>Mágia</h2>
+      <section>
+          <a href="{{url_for('magiaeloidok')}}">Előidők</a>
+          <a href="{{url_for('magiakoraido')}}">Koraidő</a>
+          <a href="{{url_for('magiakeseikor')}}">Kései kor</a>
+          <a href="{{url_for('magiacivil')}}">Civilizáció</a>
+          <a href="{{url_for('magiacsaszar')}}">Szultanátus</a>
+
+          <a href="#">Építészet</a>
+          <a href="{{url_for('magiair')}}">Irodalom</a>
+          <a href="{{url_for('magiajud')}}">Zsidó vallás</a>
+          <a href="{{url_for('magiaiszlam')}}">Iszlám</a>
+      </section>
+      
+      <h2>Nyugat</h2>
+      <section>
+          <a href="{{url_for('nyugateloidok')}}">Előidők</a>
+          <a href="{{url_for('nyugatkoraido')}}">Koraidő</a>
+          <a href="{{url_for('nyugatkeseikor')}}">Kései kor</a>
+          <a href="{{url_for('nyugatcivil')}}">Civilizáció</a>
+          <a href="{{url_for('nyugatcsaszar')}}">Császárság</a>
+
+          <a href="#">Építészet</a>
+          <a href="#">Filozófia</a>
+      </section>
+
+      <h2>Kereszténység</h2>
+      <section>
+          <h3>Mágikus kereszténység</h3>
+          <a href="#">Ortodox kereszténység</a>
+          <a href="{{url_for('mani')}}">Manicheizmus</a>
+          <h3>Gótikus kereszténység</h3>
+          <a href="#">Római katolicizmus</a>
+          <a href="#">Evangélikus</a>
+          <a href="#">Református</a>
+          <a href="#">Baptista</a>
+          <a href="#">Adventista</a>
+          <a href="#">Pünkösdi-karizmatikus</a>
+          <a href="#">Hiperkegyelem</a>
+
+          <h3>Egyháztörténet</h3>
+          <a href="{{url_for('egyhazt')}}">Egyháztörténet</a>
+      </section>
+
+      <h2>Magyarország</h2>
+      <section>
+        <a href="{{url_for('ostortenet')}}">Őstörténet</a>
+        <a href="https://www.youtube.com/playlist?list=PL0gfe0ejbZMCxwuxbzH0R4oO335EidmuM" target="_blank">Magyarország története</a>
+        <a href="https://mediaklikk.hu/musor/hazajaro/" target="_blank">Hazajáró</a>
+        <a href="{{url_for('SzentKorona')}}">Szent Korona</a>
+      </section>
+      
+      <h2>Amerika</h2>
+      <section>
+        <a href="{{url_for('mexiko')}}">Mexikó</a>
+        <a href="{{url_for('indianok')}}">Észak-amerikai indiánok</a>
+        <a href="{{url_for('indianokdel')}}">Dél-amerikai indiánok</a>
+        <a href="{{url_for('portugal')}}">Portugál Birodalom</a>
+        <a href="{{url_for('spanyol')}}">Spanyol Birodalom</a>
+        <a href="{{url_for('usa')}}">Amerikai Egyesült Államok</a>
+      </section>
+      
+      <h2>Keleti szlávok</h2>
+      <section>
+          <a href="{{url_for('rusz')}}">Kijevi Rusz</a>
+          <a href="{{url_for('moszkva')}}">Moszkvai Fejedelemség</a>
+          <a href="{{url_for('car')}}">Orosz Cárság</a>
+          <a href="{{url_for('ussr')}}">Szovjetunió</a>
+          <a href="{{url_for('russia')}}">Oroszország</a>
+
+          <a href="https://www.youtube.com/@orosztortenelmipodcast623" target="_blank">Orosz Történelmi Podcast</a>
+          <a href="https://www.youtube.com/playlist?list=PLaBYW76inbX7VyPJoThyR2D0L0I5-HSAz" target="_blank">History of Russia</a>
+      </section>
+      
+      <h2>Eurázsia</h2>
+      <section>
+        <a href="{{url_for('szkitak')}}">Szkíta népek</a>
+        <a href="{{url_for('hunok')}}">Hunok</a>
+        <a href="{{url_for('turkok')}}">Türk népek</a>
+        <a href="{{url_for('mongol')}}">Mongolok</a>
+        <a href="{{url_for('finnugor')}}">Finnugor népek</a>
+      </section>
+
+      <h2>Társadalom</h2>
+      <section>
+        <a href="{{url_for('orszagok')}}">Országok</a>
+        <a href="{{url_for('allam')}}">Állam, politika, jog</a>
+        <a href="{{url_for('gazdasag')}}">Gazdaság, pénz</a>
+        <a href="{{url_for('media')}}">Média, sajtó</a>
+        <a href="{{url_for('tarsfoldrajz')}}">Társadalomföldrajz</a>
+        <a href="{{url_for('antr')}}">Kultúrák, néprajz, antropológia</a>
+        <a href="{{url_for('nepzenetancviselet')}}">Népzene, néptánc, népviselet</a>
+        <a href="{{url_for('ruhak')}}">Ruhák, viseletek</a>
+        <a href="{{url_for('nyelvek_')}}">Nyelvek</a>
+      </section>
+    </aside>
+
+    <main>
+      <h1>Üdvözöllek a Történelem és társadalomtudomány nyitóoldalán!</h1>
+      <article><a href="tarsadalompodcast"><i class="fa fa-podcast"></i> Társadalom Podcast <i class="fa fa-podcast"></i></a></article>
+    </main>
+
+    <div style="clear:both;"></div>
+
+    <script src="../static/accordion.js"></script>
+  </body>
+</html>

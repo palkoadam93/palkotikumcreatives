@@ -1,0 +1,12 @@
+body {
+    background-image:url('pencils.jpg');
+}
+
+header h2 {
+    letter-spacing: 0;
+    margin-right: 0;
+}
+
+aside h2 {
+    background-image: linear-gradient(to right, rgba(244, 164, 96, .8), rgba(218, 165, 32, .8));
+}

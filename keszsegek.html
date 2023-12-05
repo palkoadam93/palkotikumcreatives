@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/Palkotikumicon.png">
+
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/mainkeszsegek.css">
+    <link rel="stylesheet" href="../static/oldalak.css">
+
+    <title>Készségek</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--INTER FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;900&display=swap" rel="stylesheet">
+    <!--PHILOSOPHER FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <!--JULIUS SANS ONE FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header">
+      <header>
+        <h1><a href="/" title="Kezdőlap">Palkotikum</a></h1>
+        <h2><a href="/keszsegek" title="Nyitóoldal">Készségek</a></h2>
+      </header>
+      <nav>
+        <a href="#">Rólunk</a>
+        <a href="#">Blog</a>
+        <!--<a href="#" id="podcastbutton">
+          <img src="../static/podcast-2665179_640.png" id="podcasticon" /></i>
+          <p>Podcast</p>
+        </a>-->
+        <a href="#">Regisztráció</a>
+        <a href="#">Bejelentkezés</a>
+        <a href="#">Pályázatok</a>
+      </nav>
+    </div>
+
+    <aside>
+      <h2>Matematika haladó</h2>
+      <section>
+          <a href="{{url_for('matekhalado')}}">Matematika haladó</a>
+          <a href="{{url_for('matekerettsegi')}}">Matematika érettségi</a>
+          <a href="https://www.studiumgenerale.hu/matek-erettsegik/" target="_blank">STUDIUM GENERALE</a>
+
+          <h3>Témakörök</h3>
+          <a href="{{url_for('nemeukl')}}">Nemeuklideszi geometriák</a>
+          <a href="{{url_for('algebra')}}">Algebra</a>
+          <a href="{{url_for('analizis_')}}">Analízis</a>
+          <a href="{{url_for('trigon')}}">Trigonometria</a>
+          <a href="{{url_for('halmaz')}}">Halmazelmélet</a>
+          <a href="{{url_for('komb')}}">Kombinatorika</a>
+          <a href="{{url_for('val')}}">Valószínűségszámítás</a>
+          <a href="{{url_for('stat')}}">Statisztika</a>
+
+          <h3>Matematika 9.</h3>
+          <a href="https://www.nkp.hu/tankonyv/matematika_9_i_nat2020/lecke_01_001" target="_blank">9.1. Kombinatorika, halmazok</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_9_i_nat2020/lecke_02_012" target="_blank">9.2. A számok világa</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_9_i_nat2020/lecke_03_028" target="_blank">9.3. Egyenletek és azonosságok</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_9_ii_nat2020/lecke_04_039" target="_blank">9.4. Bevezetés a geometriába</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_9_ii_nat2020/lecke_05_052" target="_blank">9.5. Függvények</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_9_ii_nat2020/lecke_06_069" target="_blank">9.6. Egybevágóság, négyszögek</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_9_ii_nat2020/lecke_07_001" target="_blank">9.7. Mindennapi pénzügyeink</a>
+    
+          <h3>Matematika 10.</h3>
+          <a href="https://www.nkp.hu/tankonyv/matematika_10_1_nat2020/lecke_01_001" target="_blank">10.1. Logika</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_10_1_nat2020/lecke_02_007" target="_blank">10.2. Egyenletrendszerek</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_10_1_nat2020/lecke_03_012" target="_blank">10.3. Hatványozás és négyzetgyök</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_10_1_nat2020/lecke_04_020" target="_blank">10.4. Függvénytranszformációk</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_10_1_nat2020/lecke_05_029" target="_blank">10.5. Másodfokú egyenletek</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_10_2_nat2020/lecke_06_041" target="_blank">10.6. Egybevágóság, kör</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_10_2_nat2020/lecke_07_051" target="_blank">10.7. Statisztika és valószínűségszámítás</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_10_2_nat2020/lecke_08_060" target="_blank">10.8. Egyenletek és egyenletrendszerek</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_10_2_nat2020/lecke_09_067" target="_blank">10.9. Hasonlóság</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_10_2_nat2020/lecke_10_001" target="_blank">10.10. Mindennapi pénzügyeink</a>
+    
+          <h3>Matematika 11.</h3>
+          <a href="https://www.nkp.hu/tankonyv/matematika_11_nat_2020/lecke_01_001" target="_blank">11.1. Trigonometria</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_11_nat_2020/lecke_02_016" target="_blank">11.2. Kombinatorika, gráfok</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_11_nat_2020/lecke_03_026" target="_blank">11.3. Hatvány, gyök, logaritmus</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_11_nat_2020/lecke_04_042" target="_blank">11.4. Számelmélet</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_11_nat_2020/lecke_05_053" target="_blank">11.5. Statiszitka és valószínűségszámítás</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_11_nat_2020/lecke_06_066" target="_blank">11.6. Koordinátageometria</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_11_nat_2020/lecke_07_001" target="_blank">11.7. Mindennapi pénzügyeink</a>
+    
+          <h3>Matematika 12.</h3>
+          <a href="https://www.nkp.hu/tankonyv/matematika_12/lecke_01_001" target="_blank">12.1. Térgeometria</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_12/lecke_02_024" target="_blank">12.2. Sorozatok</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_12/lecke_03_035" target="_blank">12.3. Statisztika</a>
+          <a href="https://www.nkp.hu/tankonyv/matematika_12/lecke_06_001" target="_blank">12.4. Mindennapi pénzügyeink</a>
+      </section>
+
+      <h2>Logika</h2>
+      <section>
+        <a href="https://www.logirintus.hu/" target="_blank">Logirintus</a>
+      </section>
+
+      <h2>Pszichológia</h2>
+      <section>
+        <a href="{{url_for('pszicho')}}">Pszichológia</a>
+      </section>
+
+      <h2>Filozófia</h2>
+      <section>
+        <a href="{{url_for('filozofia')}}">Filozófia</a>
+      </section>
+
+      <h2>Sport</h2>
+      <section>
+        <a href="https://www.kalandokesalmok.hu/" target="_blank">Kalandok és Álmok</a>
+        <a href="https://honvedelmitabor.hu/" target="_blank">Honvédelmi Tábor</a>
+        <a href="#">Harcművészet</a>
+      </section>
+    </aside>
+
+    <main>
+      <h1>Üdvözöllek a Készségek nyitóoldalán!</h1>
+    </main>
+
+    <div style="clear:both;"></div>
+
+    <script src="../static/accordion.js"></script>
+  </body>
+</html>
