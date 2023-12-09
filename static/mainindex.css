@@ -24,21 +24,3 @@ menu a:hover {
     font-family: 'Dosis', sans-serif;
 }
 /* MENU END */
-
-@media (min-width: 768px){
-    body {
-        width: 80%;
-        margin: auto;
-    }
-
-    /* HEADER BEGIN */
-    header h1 {
-        font-size: 4em;
-    }
-
-    header h2 {
-        letter-spacing: 30px;
-        margin-right: -30px;
-    }
-    /* HEADER END */
-}

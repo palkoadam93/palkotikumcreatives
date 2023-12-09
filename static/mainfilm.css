@@ -1,10 +1,10 @@
-body {
-    background-image:url('film.jpg');
-}
-
 header h2 {
     letter-spacing: 0;
     margin-right: 0;
+}
+
+article {
+    background-color: rgba(255,255,255,.8);
 }
 
 article h1 {
@@ -16,15 +16,11 @@ article h1 {
     color: black;
 }
 
-article h3 {
-    margin: 1em;
-    /*border-radius: 20px;*/
-    background: coral;
-    /*padding: 2em;*/
-}
-
 article a {
     display: block;
     padding: 2em;
     text-decoration: none;
+}
+article a:hover {
+    background: orange;
 }
