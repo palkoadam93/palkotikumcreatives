@@ -24,15 +24,20 @@ article h4 {
     margin: 1em;
     /*border-radius: 20px;*/
     background: coral;
-    padding: 2em;
+    /*padding: 2em;*/
 }
 
 article h4 #kurzus {
-    display: block;
     /*border-radius: 20px;*/
     font-size: 1.5em;
     color: black;
     font-family: 'Dosis', sans-serif;
+}
+
+article a {
+    display: block;
+    padding: 2em;
+    text-decoration: none;
 }
 
 @media (min-width: 768px){
