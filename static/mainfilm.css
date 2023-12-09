@@ -11,26 +11,33 @@ aside h2 {
     background-image: linear-gradient(to right, rgba(255,0,0,.8), rgba(255, 127, 80, .8));
 }
 
-main h4 {
-    margin: 1em;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, coral, white);
+article h1 {
+    background-color: rgba(255,255,255,.8);
+    font-family: 'Inter', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    padding: 1em 0;
+    color: black;
 }
 
-main h4 a {
-    display: block;
+article h4 {
+    margin: 1em;
+    /*border-radius: 20px;*/
+    background: coral;
     padding: 2em;
-    border-radius: 20px;
+}
+
+article h4 #kurzus {
+    display: block;
+    /*border-radius: 20px;*/
     font-size: 1.5em;
     color: black;
     font-family: 'Dosis', sans-serif;
-    /*float: left;
-    width: 30%;*/
 }
 
-main h4 a:hover {
-    background: white;
-    color: black;
+@media (min-width: 768px){
+    article {
+        float: right;
+        width: 75%;
+    }
 }
-
-main h4 p {float: right; width: 30%; font-family: 'Dosis', sans-serif;}

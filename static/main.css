@@ -8,7 +8,7 @@ body {
 
 * { margin: 0; box-sizing: border-box;}
 
-/* HEADER BEGIN */
+/* HEADER BEGIN ***********************************************************/
 header {
     background-image: linear-gradient(to bottom right, red, rgba(255,255,255,.8));
     color: white;
@@ -46,13 +46,13 @@ header h2 {
     letter-spacing: 10px;
     margin-right: -10px;
 }
-/* HEADER END */
+/* HEADER END ***********************************************************/
 
 .icon-bar {
     display: none;
 }
 
-/* NAV BEGIN */
+/* NAV BEGIN ***********************************************************/
 nav {
     text-align: center;
     background-image: linear-gradient(to top, white, rgba(255,255,255,.5));
@@ -77,14 +77,14 @@ nav a:hover {
 }
 
 nav img {display: none;}
-/* NAV END */
+/* NAV END ***********************************************************/
 
 #header{
     position: sticky;
     top: 0;
 }
 
-/* ALOLDALAK MENÜJE BEGIN */
+/* ALOLDALAK MENÜJE BEGIN ***********************************************************/
 aside h2 {
     /*line-height: 200%;*/
     /*color: white;*/
@@ -97,7 +97,7 @@ aside h2 {
 aside h2:hover {
     background-color: white;
 }
-/* ALOLDALAK MENÜJE END */
+/* ALOLDALAK MENÜJE END ***********************************************************/
 
 /* === === === ACCORDION BEGIN === === === */
 section {
