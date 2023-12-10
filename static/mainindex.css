@@ -28,7 +28,7 @@ main h1 {
 
 section {
     border-left: 1px dotted;
-    padding: 1em 0;
+    /*padding: 1em 0;*/
 }
 
 section a {
