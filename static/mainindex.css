@@ -1,9 +1,4 @@
-/* MENU BEGIN */
-menu {
-    margin: 0;
-}
-
-menu a {
+main a {
     display: block;
     text-decoration: none;
     color: white;
@@ -12,15 +7,12 @@ menu a {
     background-image: linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,0));
 }
 
-menu a:hover {
-    background-image: linear-gradient(to right, rgba(255,0,0,.8), white);
+main a:hover {
+    background-image: linear-gradient(to right, white, rgba(255,0,0,.8));
     color: black;
 }
 
 #kurzus {
-    /*border-radius: 20px;*/
     font-size: 1.5em;
-    color: black;
     font-family: 'Dosis', sans-serif;
 }
-/* MENU END */

@@ -10,7 +10,7 @@ article {
 article h1 {
     background-color: rgba(255,255,255,.8);
     font-family: 'Inter', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     padding: 1em 0;
     color: black;
@@ -21,6 +21,7 @@ article a {
     padding: 2em;
     text-decoration: none;
 }
+
 article a:hover {
     background: orange;
 }
