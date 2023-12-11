@@ -1,9 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image:url('lens-1.jpg');
+    /*font-family: Arial, sans-serif;*/
+    background-image:url('triangles-1430105_1920.png');
     background-size: 100%;
     background-attachment: fixed;
-    color: white;
+    /*color: white;*/
 }
 
 * {
@@ -12,16 +12,18 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom right, red, rgba(255,255,255,.8));
+    /*background-image: linear-gradient(to bottom right, red, rgba(255,255,255,.8));*/
+    background-image: url('lens-2.jpg');
+    background-size: cover;
+    padding: 1em 0;
     color: white;
     text-align: center;
     position: sticky;
     top: 0;
-    padding: 2em 10px;
 }
 
 header h1 {
-    font-family: 'Julius Sans One', sans-serif;
+    /*font-family: 'Julius Sans One', sans-serif;*/
     text-transform: uppercase;
 }
 
@@ -44,7 +46,7 @@ header a:hover {
 }
 
 header h2 {
-    font-family: 'Inter', sans-serif;
+    /*font-family: 'Inter', sans-serif;*/
     letter-spacing: 10px;
     margin-right: -10px;
 }
