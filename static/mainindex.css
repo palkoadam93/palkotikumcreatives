@@ -20,16 +20,6 @@ menu {
     margin: 0;
 }
 
-#italapok {background-image:url('circuit.jpg'); background-size:100%;}
-#halo {background-image:url('halohatter.jpg'); background-size:100%}
-#grafika {background-image:url('laserwallp.jpg'); background-size:100%;}
-#filmstudio {background-image:url('film.jpg'); background-size:100%;}
-#prog {background-image:url('25328.jpg'); background-size:100%;}
-#techtermtud {background-image:url('techtermtud.jpg'); background-size:100%;}
-#torttarstud {background-image:url('torttarstud.jpg'); background-size:100%;}
-#irmuvtort {background-image:url('books.jpg'); background-size:100%;}
-#keszsegek {background-image:url('pencils.jpg'); background-size:100%;}
-
 menu a {
     display: block;
     text-decoration: none;
@@ -65,11 +55,6 @@ footer img {
 /* FOOTER END */
 
 @media (min-width: 768px){
-    body {
-        width: 80%;
-        margin: auto;
-    }
-
     /* HEADER BEGIN */
     header h1 {
         font-size: 4em;
