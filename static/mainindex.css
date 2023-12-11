@@ -1,34 +1,33 @@
 main {
-    background-color: rgba(255,255,255,.5);
     border-bottom: 1px dotted;
     color: black;
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: bold;
 }
 
 main h2 {
     background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,0,0,.8), rgba(255,255,255,0));
     padding: .5em;
     text-align: center;
-    font-family: 'Inter', sans-serif;
-}
-
-aside {
-    padding: 1em;
-    font-family: 'Inter', sans-serif;
+    margin: 0;
+    color: white;
+    font-family: 'Inter';
     font-weight: bold;
-}
-
-aside p {
-    text-align: justify;
-}
-
-main h1 {
-    text-align: center;
-    font-family: 'Inter', sans-serif;
 }
 
 section {
     border-left: 1px dotted;
-    /*padding: 1em 0;*/
+    border-bottom: 1px dotted;
+    font-weight: bold;
+    /*background-color: yellow;*/
+}
+
+section p {
+    text-align: justify;
 }
 
 section a {
@@ -37,7 +36,7 @@ section a {
     color: black;
     cursor: pointer;
     padding: 1em;
-    /*background-image: linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,0));*/
+    background-image: linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,0));
 }
 
 section a:hover {
@@ -45,13 +44,7 @@ section a:hover {
     color: black;
 }
 
-@media (min-width: 768px){
-    aside {
-        float: left;
-        width:50%;
-    }
-    section {
-        float: right;
-        width:50%;
-    }
+.bal {
+    background-color: rgba(255,255,255,.5);
+    /*padding: 1em;*/
 }
