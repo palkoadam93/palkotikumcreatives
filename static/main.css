@@ -25,6 +25,7 @@ header {
 header h1 {
     /*font-family: 'Julius Sans One', sans-serif;*/
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 header a {
@@ -49,6 +50,7 @@ header h2 {
     /*font-family: 'Inter', sans-serif;*/
     letter-spacing: 10px;
     margin-right: -10px;
+    font-weight: bold;
 }
 
 nav {
