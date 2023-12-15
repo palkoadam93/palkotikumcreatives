@@ -43,6 +43,7 @@ section a {
     cursor: pointer;
     padding: 1em;
     background-image: linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,0));
+    border-left: 1px dotted;
 }
 
 section a:hover {
