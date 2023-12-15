@@ -1,5 +1,4 @@
 main {
-    border-bottom: 1px dotted;
     color: black;
 }
 
@@ -29,8 +28,6 @@ main section h2 {           /*ez a bal oldali alcím*/
 }
 
 section {
-    border-left: 1px dotted;
-    border-bottom: 1px dotted;
     font-weight: bold;
     /*background-color: yellow;*/
 }
