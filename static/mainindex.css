@@ -8,13 +8,15 @@ main h1 {
     text-align: center;
     margin: 0;
     color: white;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    font-family: 'Philosopher', sans-serif;
 }
 
 main section h1 {           /*ez a piros főcím*/
     background: none;
     text-align: center;
     /*font-weight: bold;*/
+    font-family: 'Inter', sans-serif;
 }
 
 main section h2 {           /*ez a bal oldali alcím*/
@@ -24,12 +26,8 @@ main section h2 {           /*ez a bal oldali alcím*/
     text-align: center;
     margin: 0;
     color: white;
-    font-weight: bold;
-}
-
-section {
-    font-weight: bold;
-    /*background-color: yellow;*/
+    /*font-weight: bold;*/
+    font-family: 'Philosopher', sans-serif;
 }
 
 section p {

@@ -8,28 +8,26 @@ main {
 }
 
 main h1 {
-    font-size: 3em;
-    text-align: center;
-    padding: 1em 0;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2em;
+    padding: .5em;
     color: black;
 }
 
 main h3 {
     color: black;
     background-image: linear-gradient(to right, white, red);
-    padding: 1em;
+    padding: .5em;
+    font-family: 'Philosopher', sans-serif;
     font-variant: small-caps;
 }
 
 main a {
     text-decoration: none;
     color: red;
-    display: block;
+    /*display: block;*/
 }
-main a:hover {
-    background-color: orange;
-    color: white;
-}
+main a:hover {text-decoration:underline;}
 
 main p, ul, ol {
     text-align: justify;
@@ -46,28 +44,3 @@ main iframe {
     display: block;
     margin: auto;
 }
-
-/* NYITÓOLDAL PROJEKTEK LINKJEI BEGIN */
-
-main article {
-    margin: 1em auto;
-    width: 80%;
-    border-radius: 25px;
-}
-
-main article a {
-    font-weight: bold;
-    display: block;
-    padding: 1em 2em;
-    color: black;
-    border: 3px solid black;
-    border-radius: 25px;
-}
-
-main article a:hover {
-    border: 3px solid orange;
-    background: rgba(255,255,255,.5);
-    color: black;
-}
-
-/* NYITÓOLDAL PROJEKTEK LINKJEI END */
