@@ -8,17 +8,17 @@ main {
 }
 
 main h1 {
-    font-family: 'Philosopher', sans-serif;
-    font-size: 2em;
-    padding: .5em;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+    padding: 1em;
     color: black;
 }
 
 main h3 {
     color: black;
     background-image: linear-gradient(to right, white, red);
-    padding: .5em;
-    font-family: 'Philosopher', sans-serif;
+    padding: 1em;
+    font-family: 'Inter', sans-serif;
     font-variant: small-caps;
 }
 
