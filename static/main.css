@@ -55,25 +55,23 @@ header h2 {
 
 nav {
     text-align: center;
-    background-image: linear-gradient(to top, white, rgba(255,255,255,.5));
+    /*background-image: linear-gradient(to top, white, rgba(255,255,255,.5));*/
+    background-color: #6F2232;
 }
 
 nav a {
     text-decoration: none;
-    /*background-image: linear-gradient(to right, red, rgba(255,255,255,.8));*/
-    color: black;
+    color: white;
     font-weight: bold;
     display: inline-block;
     text-align: center;
     padding: 1em 0;
     width: 8em;
-    border-bottom: 5px solid transparent;
 }
 
 nav a:hover {
-    background-image: linear-gradient(to bottom, white, rgba(255,255,255,.5));
-    color: red;
-    border-bottom: 5px solid orange;
+    background-color: white;
+    color: #6F2232;
 }
 
 #header{
@@ -83,7 +81,7 @@ nav a:hover {
 
 @media (min-width: 768px){
     body {
-        width: 60%;
+        width: 80%;
         margin: auto;
     }
 
