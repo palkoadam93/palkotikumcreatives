@@ -56,17 +56,21 @@ header h2 {
 nav {
     text-align: center;
     /*background-image: linear-gradient(to top, white, rgba(255,255,255,.5));*/
-    background-color: #6F2232;
+    background-color: rgba(26,26,29,.8);
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
 
 nav a {
     text-decoration: none;
+    background-color: #C3073F;
     color: white;
     font-weight: bold;
     display: inline-block;
     text-align: center;
     padding: 1em 0;
     width: 8em;
+    font-family: 'Cousine', monospace;
 }
 
 nav a:hover {

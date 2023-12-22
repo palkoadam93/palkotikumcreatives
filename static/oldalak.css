@@ -15,8 +15,9 @@ main h1 {
 }
 
 main h3 {
-    color: black;
-    background-image: linear-gradient(to right, white, red);
+    color: white;
+    /*background-image: linear-gradient(to right, white, red);*/
+    background-color: #C3073F;
     padding: 1em;
     font-family: 'Inter', sans-serif;
     font-variant: small-caps;
