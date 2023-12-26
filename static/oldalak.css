@@ -24,11 +24,10 @@ main h3 {
 }
 
 main a {
-    text-decoration: underline;
     color: yellow;
     /*display: block;*/
 }
-main a:hover {color: red;}
+main a:hover {text-decoration: underline;}
 
 main p, ul, ol {
     text-align: justify;
