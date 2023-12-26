@@ -3,14 +3,16 @@ body {
     background-image:url('creative.jpg');
     background-size: 100%;
     background-attachment: fixed;
-    color: white;
 }
 
-* { margin: 0; box-sizing: border-box;}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
-/* HEADER BEGIN ***********************************************************/
 header {
-    background-image: linear-gradient(to bottom right, red, rgba(255,255,255,.8));
+    /*background-image: linear-gradient(to bottom right, red, rgba(255,255,255,.8));*/
+    background-image: linear-gradient(to bottom right, red,  rgb(195,7,63));
     color: white;
     text-align: center;
     position: sticky;
@@ -46,98 +48,59 @@ header h2 {
     letter-spacing: 10px;
     margin-right: -10px;
 }
-/* HEADER END ***********************************************************/
 
-.icon-bar {
-    display: none;
-}
-
-/* NAV BEGIN ***********************************************************/
 nav {
     text-align: center;
-    background-image: linear-gradient(to top, white, rgba(255,255,255,.5));
+    /*background-image: linear-gradient(to top, white, rgba(255,255,255,.5));*/
+    background-color: rgba(26,26,29,.9);
+    border-bottom: 1px solid white;
 }
 
 nav a {
     text-decoration: none;
     /*background-image: linear-gradient(to right, red, rgba(255,255,255,.8));*/
-    color: black;
     font-weight: bold;
+    color: white;
     display: inline-block;
     text-align: center;
     padding: 1em 0;
-    width: 10em;
-    border-bottom: 5px solid transparent;
+    width: 8em;
 }
 
 nav a:hover {
-    background-image: linear-gradient(to bottom, white, rgba(255,255,255,.5));
     color: red;
-    border-bottom: 5px solid orange;
 }
 
-nav img {display: none;}
-/* NAV END ***********************************************************/
+/* ======== DROPDOWN MENÜ BEGIN ======== */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+
+  .dropdown-content a {
+    display: block;
+    background-color: rgb(26,26,29);
+    font-weight: normal;
+  }
+  .dropdown:hover .dropdown-content {display: block;}
+/* ======== DROPDOWN MENÜ END ======== */
 
 #header{
     position: sticky;
     top: 0;
 }
 
-/* ALOLDALAK MENÜJE BEGIN ***********************************************************/
-aside h2 {
-    /*line-height: 200%;*/
-    /*color: white;*/
-    cursor: pointer;
-    padding: .5em;
-    font-size: 1.3em;
-    /*top: 0;*/
-}
-
-aside h2:hover {
-    background-color: white;
-}
-/* ALOLDALAK MENÜJE END ***********************************************************/
-
-/* === === === ACCORDION BEGIN === === === */
-section {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-/* === === === ACCORDION END === === === */
-
-/* === LENYÍLÓ SECTION PICI SZÜRKE ALCÍMEI === */
-aside h3 {
-    background-image: linear-gradient(to right, grey, white);
-    padding: .5em;
-    text-transform: uppercase;
-    font-size: .9em;
-}
-/* === LENYÍLÓ SECTION PICI SZÜRKE ALCÍMEI === */
-
-aside a {
-    background-color: rgba(255,255,255,.8);
-    display: block;
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-aside a:hover {
-    background-color: orange;
-    color: white;
-}
-/* MENÜ END */
-
 @media (min-width: 768px){
     body {
-        width: 60%;
+        width: 80%;
         margin: auto;
     }
 
-    /* HEADER BEGIN */
     header h1 {
         font-size: 4em;
     }
@@ -145,24 +108,5 @@ aside a:hover {
     header h2 {
         letter-spacing: 30px;
         margin-right: -30px;
-    }
-    /* HEADER END */
-
-    /* ASIDE BEGIN */
-    aside {
-        float: left;
-        width: 25%;
-
-        /*position:fixed;
-        z-index:1;
-        top:0;
-        left:0;
-        overflow-x:hidden;*/
-    }
-    /* ASIDE END */
-
-    main {
-        float: right;
-        width: 75%;
     }
 }
