@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image:url('triangles-1430105_1920kicsi.png');
+    background-image:url('lens-1kicsi.jpg');
     background-size: 100%;
     background-attachment: fixed;
     /*color: white;*/
@@ -12,9 +12,7 @@ body {
 }
 
 header {
-    /*background-image: linear-gradient(to bottom right, red, rgba(255,255,255,.8));*/
-    background-image: url('lens-2.jpg');
-    background-size: cover;
+    background-image: linear-gradient(to bottom right, red,  rgb(195,7,63));
     color: white;
     text-align: center;
     /*position: sticky;
@@ -52,30 +50,26 @@ header h2 {
     margin-right: -10px;
     /*font-weight: bold;*/
 }
-
 nav {
     text-align: center;
     /*background-image: linear-gradient(to top, white, rgba(255,255,255,.5));*/
-    background-color: rgba(26,26,29,.8);
+    background-color: rgba(26,26,29,.9);
     border-bottom: 1px solid white;
-    border-top: 1px solid white;
 }
 
 nav a {
     text-decoration: none;
-    background-color: #C3073F;
-    color: white;
+    /*background-image: linear-gradient(to right, red, rgba(255,255,255,.8));*/
     font-weight: bold;
+    color: white;
     display: inline-block;
     text-align: center;
     padding: 1em 0;
     width: 8em;
-    font-family: 'Cousine', monospace;
 }
 
 nav a:hover {
-    background-color: white;
-    color: #6F2232;
+    color: red;
 }
 
 #header{
@@ -85,7 +79,7 @@ nav a:hover {
 
 
 footer {
-    background-color: rgba(195,7,63,.8);
+    background-image: linear-gradient(to right, red,  rgb(195,7,63));
     padding: 1rem;
 }
 footer img {
@@ -98,7 +92,7 @@ footer img {
     body {
         width: 80%;
         margin: auto;
-        background-image:url('triangles-1430105_1920.png');
+        background-image:url('lens-1.jpg');
         background-size: 100%;
         background-attachment: fixed;
     }
