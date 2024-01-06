@@ -84,7 +84,7 @@ aside a:hover {
 
 article a {
     text-decoration: none;
-    
+    font-weight: bold;
     padding: 1em;
 }
 
@@ -100,10 +100,10 @@ article a:hover {
 
 
 #arkre {
-    background-image: url('flowers-2611474_1280.jpg');
+    background-image: url('typewriter-1170657_1280.jpg');
     background-size:cover;
 }
-#arkre a {color: black;}
+
 /*
 #asgrafika {
     background-image: url('flowers-2611474_1280.jpg');
@@ -155,6 +155,7 @@ article a:hover {
     background-size:cover;
     background-position: center;
 }
+#arfilm a {color: black;}
 
 #arhang {
     background-image: url('music-4507820_1280.jpg');
