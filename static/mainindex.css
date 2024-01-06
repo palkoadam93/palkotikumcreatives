@@ -1,7 +1,6 @@
 #cim {
     /*background-color: rgba(255,255,255,.8);*/
-    background-color: /*#FF5151*/ #FF4B91;
-    color: white;
+    background-color: /*#FF5151*/ /*#FF4B91*/ #FF9B6A;;
     padding: 2rem 0;
     text-align:center;
 }
@@ -75,7 +74,8 @@ aside a, article a {
     display: block;
     text-decoration: none;
     cursor: pointer;
-    color: #FFF6F4;
+    /*color: #FFF6F4;*/
+    color: black;
 }
 
 aside a:hover {
@@ -94,10 +94,22 @@ article a:hover {
     color: black;
 }
 
-#askre, #askep, #asszgr, #asszin, #asfilm, #ashang {background-color: #FF5151;}
-#argrafika, #armat, #ar3d, #artanc, #armocap, #argame {background-color: #E14D2A;}
-#asgrafika, #asmat, #as3d, #astanc, #asmocap, #asgame {background-color: #88E0EF;}
-
+#askre, #askep, #asszgr, #asszin, #asfilm, #ashang {
+    background-color: #FF5151;
+    color: white;
+}
+#arkre a, #arkep a, #arszgr a, #arszin a, #arfilm a, #arhang a {
+    color: white;
+}
+#arkre a:hover, #arkep a:hover, #arszgr a:hover, #arszin a:hover, #arfilm a:hover, #arhang a:hover {
+    color: black;
+}
+#argrafika, #armat, #ar3d, #artanc, #armocap, #argame {
+    background-color: /*#E14D2A;*/ #FF9B6A;
+}
+#asgrafika, #asmat, #as3d, #astanc, #asmocap, #asgame {
+    background-color: #88E0EF;
+}
 
 #arkre {
     background-image: url('typewriter-1170657_1280.jpg');
@@ -151,11 +163,10 @@ article a:hover {
 }*/
 
 #arfilm {
-    background-image: url('people-3109248_1280.jpg');
+    background-image: url('sony-1455035_1280.jpg');
     background-size:cover;
     background-position: center;
 }
-#arfilm a {color: black;}
 
 #arhang {
     background-image: url('music-4507820_1280.jpg');
