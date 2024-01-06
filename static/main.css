@@ -17,6 +17,7 @@ header {
     background-color: #161E54;
     color: white;
     text-align: center;
+    padding: 2em 10px;
     position: sticky;
     top: 0;
     transition: .5s;
@@ -137,10 +138,6 @@ footer a:hover {
         /*background-image:url('laserwallp.jpg');
         background-size: 100%;
         background-attachment: fixed;*/
-    }
-
-    header {
-        padding: 2em 10px;
     }
 
     header h1 {
