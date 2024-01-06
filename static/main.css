@@ -19,6 +19,7 @@ header {
     text-align: center;
     position: sticky;
     top: 0;
+    transition: .5s;
 }
 
 header h1 {
@@ -160,5 +161,8 @@ footer a:hover {
         padding: 1em 0;
         width: 8em;
         display: inline-block;
+    }
+    footer {
+        width: 80%; margin: auto;
     }
 }

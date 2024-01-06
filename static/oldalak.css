@@ -1,3 +1,7 @@
+
+
+/* =========================================================================== */
+
 main {
     /*/background-color: rgba(255,255,255,.8);*/
     background-color: rgba(26,26,29,.9);
@@ -5,11 +9,20 @@ main {
     margin: auto;
 }
 
+/*
 main h1 {
     font-family: 'Inter', sans-serif;
     /*font-size: 1.5em;*/
-    padding: 1rem;
+/*    padding: 1rem;
     color: white;
+}
+*/
+
+main h1 {
+    color: white;
+    text-align:center;
+    padding: 4rem;
+    font-family: 'Inter', sans-serif;
 }
 
 main h3 {

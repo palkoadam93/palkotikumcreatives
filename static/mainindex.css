@@ -4,7 +4,6 @@
     color: white;
     padding: 2rem 0;
     text-align:center;
-    border-bottom: 1px dotted;
 }
 
 #cim h1 {
@@ -40,11 +39,6 @@ main h1 {
 */
 /* =================================================================== */
 
-section {
-    margin: auto;
-    width: 80%;
-}
-
 aside {
     /*background-color: rgba(26,26,29,.9);*/
     /*border-radius: 30px 0 0 30px;*/
@@ -58,6 +52,7 @@ aside h1, aside h2 {
 
 aside h2 {
     margin: 1rem;
+    text-align: center;
 }
 
 aside ol, aside p {
@@ -65,6 +60,7 @@ aside ol, aside p {
     text-align: justify;
 }
 
+/*
 article h2 {
     color: white;
     border-top: 1px dotted white;
@@ -73,6 +69,7 @@ article h2 {
     text-align: center;
     font-family: 'Inter', sans-serif;
 }
+*/
 
 aside a, article a {
     display: block;
@@ -98,36 +95,27 @@ article a:hover {
 }
 
 #askre, #askep, #asszgr, #asszin, #asfilm, #ashang {background-color: #FF5151;}
-#argrafika, #armat, #ar3d, #artanc, #armocap {background-color: #E14D2A;}
-#as3d, #astanc, #asmocap {background-color: #88E0EF;}
+#argrafika, #armat, #ar3d, #artanc, #armocap, #argame {background-color: #E14D2A;}
+#asgrafika, #asmat, #as3d, #astanc, #asmocap, #asgame {background-color: #88E0EF;}
 
 
 #arkre {
-    background-image: url('paper-623167_1280.jpg');
+    background-image: url('flowers-2611474_1280.jpg');
     background-size:cover;
 }
-
+#arkre a {color: black;}
+/*
 #asgrafika {
     background-image: url('flowers-2611474_1280.jpg');
     background-size:cover;
 }
 
 #asgrafika p {background-color: rgba(255,255,255,.6);}
-
+*/
 #arkep {
     background-image: url('woman-2435605_1280.jpg');
     background-size:cover;
     background-position: center;
-}
-
-#asmat {
-    background-image: url('math-work-4711302_1280.jpg');
-    background-size:cover;
-}
-
-#asmat h2, #asmat p {
-    background-color: rgba(0,0,0,.9);
-    color: white;
 }
 
 #arszgr {
@@ -174,19 +162,13 @@ article a:hover {
     background-position: center;
 }
 
-#asgame, #argame {background-color:unset}
-
-#game {
-    background-image: url('game-controller-5619105_1280.jpg');
-    background-size:cover;
-    background-position: center;
-}
-
-#game h2 {background-color: rgba(255,255,255,.8);}
-
 @media (min-width:768px){
+    #cim {width: 80%; margin: auto;}
     section {
         display: grid;
         grid-template-columns: 50% 50%;
+        margin: auto;
+        width: 80%;
     }
+    aside h2 {text-align: left;}
 }

@@ -21,7 +21,7 @@
   </head>
   <body>
     <div id="header">
-      <header>
+      <header id="fej">
         <h1>Palkotikum</h1>
         <h2>CREATIVES</h2>
       </header>
@@ -210,5 +210,18 @@
       <p>Ha hajót akarsz építeni, ne dobold össze az embereket, hogy fát gyűjtsenek, és ne adj nekik feladatokat.<br>Inkább tanítsd meg nekik, hogyan vágyakozzanak a tenger mérhetetlen végtelensége iránt. <a href="#">Antoine de Saint-Exupéry</a></p>
       <img src="static/cc.logo.large.png" alt="cc">
     </footer>
+
+    <script>
+      // When the user scrolls down 50px from the top of the document, resize the header's font size
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          document.getElementById("fej").style.padding = "0";
+        } else {
+          document.getElementById("fej").style.padding = "2em 10px";
+        }
+      }
+      </script>
   </body>
 </html>
