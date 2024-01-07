@@ -8,9 +8,12 @@ body {
     box-sizing: border-box;
 }
 
+#header{
+    position: sticky;
+    top: 0;
+}
+
 header {
-    /*background-image: linear-gradient(to bottom right, red, rgba(255,255,255,.8));*/
-    /*background-image: linear-gradient(to bottom right, red,  rgb(195,7,63));*/
     background-color: #161E54;
     color: white;
     text-align: center;
@@ -92,13 +95,8 @@ nav a:hover {
   .dropdown:hover .dropdown-content {display: block;}
 /* ======== DROPDOWN MENÜ END ======== */
 
-#header{
-    position: sticky;
-    top: 0;
-}
-
 footer {
-    background-color: rgba(195,7,63,.8);
+    background-color: rgb(195,7,63);
     padding: 1rem;
 }
 footer img {
