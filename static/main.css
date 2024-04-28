@@ -46,28 +46,6 @@ header h2 {
     font-family: 'Inter', sans-serif;
 }
 
-nav {
-    text-align: center;
-    /*background-image: linear-gradient(to top, white, rgba(255,255,255,.5));*/
-    background-color: rgba(26,26,29,.9);
-    border-bottom: 1px solid white;
-}
-
-nav a {
-    text-decoration: none;
-    /*background-image: linear-gradient(to right, red, rgba(255,255,255,.8));*/
-    font-weight: bold;
-    color: white;
-    display: inline-block;
-    text-align: center;
-    padding: 1em 0;
-    width: 8em;
-}
-
-nav a:hover {
-    color: red;
-}
-
 /* ======== DROPDOWN MENÜ BEGIN ======== */
 .dropdown {
     position: relative;
