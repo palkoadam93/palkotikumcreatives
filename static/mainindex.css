@@ -1,3 +1,9 @@
+body {
+    background-image:url('creativekicsi.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 .cim {
     /*background-color: rgba(255,255,255,.8);*/
     background-color: rgba(26,26,29,.9);
@@ -43,12 +49,11 @@
     padding: 1rem;
 }
 
+main {background-color: rgba(26,26,29,.9);}
 
 section {border-bottom: 1px dotted white;}
 
 aside {
-    /*background-color: rgba(255,255,255,.8);*/
-    background-color: rgba(26,26,29,.9);
     padding: 0 1em 1em 1em;
     border-right:1px dotted;
     color: white;
@@ -67,11 +72,6 @@ aside h2 {
 aside ol, aside p {
     line-height: 1.8em;
     margin: 0 0 0 1em;
-}
-
-article {
-    /*background-color: rgba(255,255,255,.8);*/
-    background-color: rgba(26,26,29,.9);
 }
 
 article h2 {
@@ -109,6 +109,11 @@ article a:hover {
 }
 
 @media (min-width:768px){
+    body {
+        background-image:url('creative.jpg');
+        background-size: 100%;
+        background-attachment: fixed;
+    }
     section {
         display: grid;
         grid-template-columns: 50% 50%;
