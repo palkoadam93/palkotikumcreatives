@@ -4,14 +4,18 @@
     padding: 0 1rem;
 }
 
-#bemutat div {background-color: #F5FFFA;}
+/*#bemutat div {background-color: #F5FFFA;}*/
 
 #bemutat a:hover {
     text-decoration: none;
 }
 
-.baljobb {display: block;}
-.baljobb aside {display: none;}
+#index h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: rgb(239, 62, 54);
+}
+
 #szurke {color: grey;}
 #sarga {color: orange;}
 #lila {color:blueviolet;}
@@ -19,39 +23,44 @@
 #piros {color:crimson;}
 #citrom {color:yellowgreen;}
 
-.bal img, .jobb img {display: none;}
-
 button {
-    background-color: orange;
-    border: 1px solid orange;
+    border: none;
     padding: 0;
     display: block;
     margin-left: 2rem;
+    margin-left: auto;
 }
 
 button a {
     display: block;
-    color: white;
-    padding: .5rem;
-}
-
-button:hover {
     background-color: white;
+    color: orange;
+    padding: .5rem;
     border: 1px solid orange;
 }
 
 button a:hover {
     text-decoration: none;
-    color: orange;
-    
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+}
+
+#elvalaszto {
+    width: 30%;
+    display: block;
+    margin: 5rem auto;
+    border-radius: 50%;
 }
 
 @media(min-width:1081px){
     .fulszoveg {
         display: grid;
         grid-template-columns: 50% 50%;
+        padding: 0 10%;
+        /*ha ezt a fulszoveg div elemnek adjuk, akkor a fulszoveg felének veszi a 10%-át!!!*/
 
-        background-image: url("christmas-4705290_1920.jpg");
+        background-image: url("confetti-2571539_1280.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
@@ -62,55 +71,57 @@ button a:hover {
         margin: 0;
     }
 
-    main {
+    #elvalaszto {
+        display: block;
+        max-width: 8%;
+        height: auto;
+    }
+
+    #index {
         display: block;
     }
 
-    .baljobb {
+    .begin {
+        padding-top: 3rem;
+    }
+    .alcim {
         display: grid;
-        grid-template-columns: 20% 80%;
-        padding: 0;
-        margin: 2rem 0;
+        grid-template-columns: 50% 50%;
+        /*height: 30rem;*/
     }
-    .baljobb aside {
-        display: block;
-        font-weight: bold;
+    .alcim h1, .alcim p {
+        margin: 0;
+        background-color: rgba(255, 255, 255, .8);
+        padding: 1rem 2rem;
     }
-
-    .bal h1, .jobb h1 {margin-left:2rem;}
-    .bal {
-        display: grid;
-        grid-template-columns: 40% 60%;
+    #alcimiras {
+        background-image: url("../iras/typewriter-1170657_1280.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
     }
-
-    .jobb {
-        display: grid;
-        grid-template-columns: 60% 40%;
+    #alcimszin {
+        background-image: url("../szin/enactment-258631_1920.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size:cover;
     }
-
-    .jobb img {
-        display: inline;
-        width:100%;
-        border-radius: 50%;
+    #alcimtanc {
+        background-image: url('../tanc/dance-430554_1280-2.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
     }
-    .jobb p {
-        padding: 2rem;
-        border-top: 1px solid;
-        border-left: 1px solid;
-    }
-    
-    .bal img {
-        display: inline;
-        width:100%;
-        border-radius: 50%;
-    }
-    .bal p {
-        padding: 2rem;
-        border-top: 1px solid;
-        border-right: 1px solid;
+    #alcimzene {
+        background-image: url('../zene/singer-2606347_1920.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
     }
 
-    #zaro {
-        margin: 0 20%;
+    h1 {
+        padding: 3rem 0 3rem 20%;
     }
+
+    #index h2 {border: none;}
 }
