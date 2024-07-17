@@ -61,6 +61,7 @@ button a:hover {
         /*ha ezt a fulszoveg div elemnek adjuk, akkor a fulszoveg felének veszi a 10%-át!!!*/
 
         background-image: url("confetti-2571539_1280.jpg");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
@@ -94,36 +95,42 @@ button a:hover {
     }
     #alcimiras {
         background-image: url("../iras/typewriter-1170657_1280.jpg");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #alcimmuv {
         background-image: url("../muv/ai-generated-8166706_1920.png");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #alcimszin {
         background-image: url("../szin/enactment-258631_1920.jpg");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: top;
         background-size:cover;
     }
     #alcimtanc {
         background-image: url('../tanc/dance-430554_1280-2.jpg');
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #alcimzene {
         background-image: url('../zene/singer-2606347_1920.jpg');
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #alcimfilm {
         background-image: url('../film/sony-1455035_1280.jpg');
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
