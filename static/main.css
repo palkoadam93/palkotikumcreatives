@@ -79,11 +79,6 @@ hr {margin: 0;}
     color: white;
 }
 
-#fo {
-    color: orange;
-    border-top: 1px solid #0881A3;
-}
-
 section h1 {color: rgb(239, 62, 54);}
 
 #t {
@@ -96,6 +91,9 @@ section h1 {color: rgb(239, 62, 54);}
 section {padding: 0 1rem;}
 
 section a:hover {text-decoration: underline;}
+
+h3 {border-bottom: 1px solid;}
+.alap h3 {border-bottom: none;}
 
 iframe {
     display: block;
