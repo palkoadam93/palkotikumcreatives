@@ -21,7 +21,7 @@
 
 #conceptart:hover, #storyboard:hover, #manga:hover {
     background-image: none;
-    color: cornflowerblue;
+    color: #0881A3;
     transition: .5s;
 }
 
