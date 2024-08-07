@@ -1,0 +1,28 @@
+#harmas {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 20rem;
+}
+#conceptart {
+    background-image: url('../muv/digitalhands.jpg');
+    background-size: cover;
+    color: white;
+}
+#storyboard {
+    background-image: url('../muv/storyboarding-books-best.jpg');
+    background-size: cover;
+    color: white;
+}
+#manga {
+    background-image: url('../muv/cartoon-5190961_1280.jpg');
+    background-size: cover;
+    color: white;
+}
+
+#conceptart:hover, #storyboard:hover, #manga:hover {
+    background-image: none;
+    color: cornflowerblue;
+    transition: .5s;
+}
+
+#harmas h2, #harmas p {padding: 0 2rem;}
