@@ -1,0 +1,113 @@
+a, a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    /*color: rgb(239, 62, 54);*/
+    color: orangered;
+}
+
+article h3, article p {
+    padding: .5rem;
+    margin: 0;
+}
+
+section h3, article h3 {
+    color: cornflowerblue;
+    font-size: 200%;
+}
+
+section img, #alkezdo img, article img {display: none;}
+
+button {
+    border: none;
+    padding: 0;
+    display: block;
+}
+
+button a {
+    display: block;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 1rem 3rem;
+}
+
+button a:hover {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+}
+
+#elvalaszto {
+    width: 10%;
+    display: block;
+    margin: 3rem auto;
+    border-radius: 50%;
+}
+
+@media(min-width:1081px){
+    .alcim {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 0 10%;
+        /*height: 30rem;*/
+    }
+    .alcim h1, .alcim p {
+        margin: 0;
+        background-color: rgba(255, 255, 255, .8);
+        padding: 1rem 2rem;
+    }
+    #bev {
+        background-image: url("zodiac.jpg");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    #alcimhalo {
+        background-image: url("../5-haloanyagok/globe-8704013_1280.jpg");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+
+    h1 {
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-top: 1rem;
+        padding: 0 10%; /*a képernyő két szélén*/
+    }
+    section div {padding: 2rem;}
+    section h3 {margin: 0;}
+
+    #alkezdo {
+        /*display: grid;
+        grid-template-columns: 25% 25% 25% 25%;*/
+        margin: 0 20% 0 10%;
+    }
+    #alkezdo a {
+        color: #0881A3;
+        /*margin: 0 10%; /*a képernyő két szélén*/
+        transition: transform .2s;
+        display: grid;
+        grid-template-columns: 25% 75%;
+        margin: 2rem 0;
+        border-bottom: 1px solid;
+    }
+    #alkezdo a:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
+    }
+
+    section img, #alkezdo img, article img {display: inline; width: 100%;}
+
+    #elvalaszto {max-width: 5%;}
+}

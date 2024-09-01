@@ -1,91 +1,131 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image:url('creativekicsi.jpg');
-    background-size: 100%;
-    background-attachment: fixed;
-}
+    font-family: "Source Sans 3", sans-serif;
+    /*font-family: "Roboto Condensed", sans-serif;*/
 
-* {
     margin: 0;
-    box-sizing: border-box;
-}
-
-#header{
-    /*position: sticky;
-    top: 0;
-    z-index: 100;*/
-    /*background-image: url('falcon-header.jpg');
-    background-size: 100%;
-    background-position: center;*/
-    background-image: linear-gradient(to bottom right, red, rgb(195,7,63));
-    color: white;
+    color: #0881A3;
+    background-color: #F5FFFA;
 }
 
 header {
-    /*background-image: linear-gradient(to bottom right, red, rgba(255,255,255,.8));*/
-    /*background-image: linear-gradient(to bottom right, red,  rgb(195,7,63));*/
-    
-    text-align: center;
-    transition: .5s;
+    /*color: rgb(239, 62, 54);*/
+    color: orangered;
+    /*padding: 0 2rem;*/
+    /*border-bottom: 1px solid;*/
 }
 
-#fej {
-    /*background-color: rgba(255, 155, 106, .4);*/
-    padding: 3em;
+header img {
+    display: block;
+    border: 1px solid black;
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+    margin: 1rem auto 0 auto;
+    box-shadow: 5px 5px lightblue;
 }
 
 header h1 {
-    font-family: 'Julius Sans One', sans-serif;
-    text-transform: uppercase;
-}
-
-header a {
+    font-size: 3rem;
+    text-shadow: 2px 2px 3px black;
+    padding: 3rem 0;
     margin: 0;
-    padding: 0;
-    text-decoration: none;
-    background: none;
-    color: white;
-    display: inline;
-}
-
-header a:hover {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    background: none;
-    color: orange;
-    transition: 0.3s;
-}
-
-header h2 {
-    font-family: 'Inter', sans-serif;
-}
-
-nav {
     text-align: center;
-    /*background-image: linear-gradient(to top, white, rgba(255,255,255,.5));*/
-    background-color: rgba(26,26,29);
+}
 
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+/* =================================== FŐMENÜ ================================== */
+
+.menu {
+    /*background-color: cornflowerblue;*/
+    background-color: #0881A3;
+    overflow: hidden;
+}
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: white;
+    /*color: cornflowerblue;*/
+    color: #0881A3;
+}
+
+#akt {
+    background-color: white;
+    /*color: cornflowerblue;*/
+    color: #0881A3;
+}
+
+/* =================================== FŐMENÜ ================================== */
+
+main {
+    /*background-color: rgba(26,26,29,.8);*/
+    /*color: white;*/
+    padding: 1rem;
+}
+
+/*aside {padding-right: 1rem;}*/
+aside h1, aside p {padding-left: .5rem;}
+
+aside a, section a, article a {
+    text-decoration: none;
+    color: orange;
+}
+
+/* =================================== ALMENÜ ================================== */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 nav a {
+    color: #002379;
+    display: block;
     text-decoration: none;
-    /*background-image: linear-gradient(to right, red, rgba(255,255,255,.8));*/
-    font-weight: bold;
-    color: white;
-    /*display: inline-block;*/
-    text-align: center;
+    padding: .5rem;
+    font-size: 100%;
 }
 
-nav a:hover {
-    color: red;
+nav a:hover {color: orangered;}
+
+hr {margin: 0;}
+
+#aktiv {
+    background-color: orangered;
+    color: white;
+}
+
+/* =================================== ALMENÜ ================================== */
+
+section h1 {color: orangered;}
+
+#t {
+    list-style-type: circle;
+    /*padding: 0;*/
+    border-bottom: 1px dotted;
+    font-variant:small-caps;
+}
+
+section a:hover {text-decoration: underline;}
+
+h3 {border-bottom: 1px solid;}
+#kezdolap h3, article h3 {border-bottom: none;}
+
+iframe {
+    display: block;
+    margin: auto;
 }
 
 footer {
-    background-color: rgba(195,7,63,.8);
+    border-top: 1px solid #0881A3;
     padding: 1rem;
+    /*color: rgb(239, 62, 54);*/
+    color: orangered;
 }
 footer img {
     display: block;
@@ -94,54 +134,66 @@ footer img {
 }
 
 footer p {
-    color: white;
     text-align:center;
-    margin-bottom: 1rem;
     font-weight: bold;
-    font-family: 'Julius Sans One', sans-serif;
 }
 
 footer a {
     text-decoration: none;
-    font-size: 80%;
-    color: yellow;
+    color: orange;
 }
 
 footer a:hover {
+    background-color: orange;
     color: white;
     transition: .5s;
 }
 
-@media (min-width: 1081px){
-    body {
+#zaro {
+    color: rgb(239, 62, 54);
+    font-weight: bold;
+}
+
+@media(min-width:1081px){
+    /*body {
         width: 80%;
         margin: auto;
-        background-image:url('creative.jpg');
-        background-size: 100%;
-        background-attachment: fixed;
+    }*/
+    header {
+        padding: 0 10%;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    header a {
+        padding: 2rem 0;
+    }
+    header img {
+        display: block;
+        border: 1px solid black;
+        border-radius: 50%;
+        max-width: 50%;
+        height: auto;
+        margin: auto;
+        box-shadow: 5px 5px lightblue;
     }
     header h1 {
-        font-size: 4em;
+        text-align: center;
     }
 
-    #fej {padding: 5em;}
-
-    /*header h2 {
-        letter-spacing: 30px;
-        margin-right: -30px;
-    }*/
-
-    nav {
-        display: block;
-        grid-template-columns:none;
+    .menu {
+        padding-left: 10%;
+    }
+    .menu a {
+        border-left: 1px solid white;
     }
 
-    nav a {
-        padding: .5rem 0;
-        width: 8rem;
-        display: inline-block;
+    main {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        padding: 0 10%; 
     }
-    .dropdown-content a {
-        padding: .5rem;
-    }
+
+    section {padding: 0 2rem;} /*ezt a menüs aloldalak tartalom-szekciója kedvéért*/
+
+    p, section li {text-align: justify;}
 }
